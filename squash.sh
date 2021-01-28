@@ -1,6 +1,6 @@
 set -ex
 
-now=`date '+%Y-%m-%d-%H_%M_%S'`
+now=`date '+%Y-%m-%d'`
 git fetch origin
 git reset --hard origin/main
 head=`git rev-parse HEAD`
